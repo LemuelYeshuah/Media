@@ -1,0 +1,36 @@
+package br.tec.lemuel.principal;
+
+import java.util.Scanner; 
+import br.tec.lemuel.controller.Negocio;
+
+public class MediaAluno {
+
+	public static void main(String[] args) {
+
+		Scanner read = new Scanner(System.in);
+		Negocio negocio = new Negocio();
+
+
+		System.out.println("Digite a nota do seu 1º Bimestre: ");
+		double nota1 = read.nextDouble();
+		System.out.println("Digite a nota do seu 2º Bimestre: ");
+		double nota2 = read.nextDouble();
+		System.out.println("Digite a nota do seu 3º Bimestre: ");
+		double nota3 =read.nextDouble();
+		System.out.println("Digite a nota do seu 4º Bimestre: ");
+		double nota4 = read.nextDouble();
+
+	
+		String resultado = negocio.mediaAluno(nota1, nota2, nota3, nota4);
+		System.out.println(resultado);
+		;
+
+
+
+
+	}
+
+
+}
+
+
