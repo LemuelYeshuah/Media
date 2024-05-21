@@ -1,0 +1,43 @@
+package br.tec.lemuel.model;
+
+public class MedicalModel {
+
+    protected String Horario;
+    protected String Especialidade;
+    protected String OcupationArea;
+    public MedicalModel() {
+        super();
+        // TODO Auto-generated constructor stub
+    }
+    public MedicalModel(String horario, String especialidade, String ocupationArea) {
+        super();
+        Horario = horario;
+        Especialidade = especialidade;
+        OcupationArea = ocupationArea;
+    }
+    public String getHorario() {
+        return Horario;
+    }
+    public void setHorario(String horario) {
+        Horario = horario;
+    }
+    public String getEspecialidade() {
+        return Especialidade;
+    }
+    public void setEspecialidade(String especialidade) {
+        Especialidade = especialidade;
+    }
+    public String getOcupationArea() {
+        return OcupationArea;
+    }
+    public void setOcupationArea(String ocupationArea) {
+        OcupationArea = ocupationArea;
+    }
+    @Override
+    public String toString() {
+        return "MedicoModel [Horario=" + Horario + ", Especialidade=" + Especialidade + ", OcupationArea="
+                + OcupationArea + "]";
+    }
+
+
+}

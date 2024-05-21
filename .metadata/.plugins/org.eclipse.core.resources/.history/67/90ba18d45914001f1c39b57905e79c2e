@@ -1,0 +1,49 @@
+package br.tec.lemuel.model;
+
+public class MedicalModel {
+	
+	private String firstName;
+	private String lastName;
+	private String occupationArea;
+	
+	public MedicalModel(String firstName, String lastName, String occupationArea) {
+		super();
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.occupationArea = occupationArea;
+	}
+
+	public String getFirstName() {
+		return firstName;
+	}
+
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
+
+	public String getLastName() {
+		return lastName;
+	}
+
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
+	}
+
+	public String getOccupationArea() {
+		return occupationArea;
+	}
+
+	public void setOccupationArea(String occupationArea) {
+		this.occupationArea = occupationArea;
+	}
+
+	@Override
+	public String toString() {
+		return "MedicalModel [firstName=" + firstName + ", lastName=" + lastName + ", occupationArea=" + occupationArea
+				+ "]";
+	}
+	
+	
+	
+
+}

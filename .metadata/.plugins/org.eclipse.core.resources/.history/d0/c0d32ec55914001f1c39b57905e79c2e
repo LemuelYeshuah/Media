@@ -1,0 +1,15 @@
+package br.tec.lemuel.principal;
+
+import br.tec.lemuel.controller.PatientController;
+
+public class PatientPrincipal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		PatientController patientController = new PatientController();
+		patientController.createPatient();
+
+	}
+
+}

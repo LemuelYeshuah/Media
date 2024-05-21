@@ -1,0 +1,28 @@
+package br.tec.lemuel.model;
+
+public class PatientModel {
+	
+	private String firstName;
+	private int Age;
+	private String Cpf;
+	private String City;
+	private String Adress;
+	private String Exam;
+	private String FinalResult;
+	
+	public PatientModel() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+	
+	}
+	
+	
+	
+
+
+
+
+}

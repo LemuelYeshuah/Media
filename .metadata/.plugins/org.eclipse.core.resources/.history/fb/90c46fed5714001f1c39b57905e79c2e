@@ -1,0 +1,21 @@
+package br.tec.lemuel.controller;
+
+import javax.swing.JOptionPane;
+
+import br.tec.lemuel.model.PatientModel;
+
+public class PatientController{
+
+    public void create() {
+        //BLOCO de Declaração de Variáveis
+        PatientModel  pacienteModel = new PatientModel();
+
+        //BLOCO - Entrada de dados
+        patientModel.setFirstName(JOptionPane.showConfirmDialog(null, "Digite o Primeiro nome: "));
+
+        //BLOCO - Saída de dados
+        patientModel.setfullname.(JOptionPane.showConfirmDialog(null, "Digite seu Primeiro nome: "));
+        patientModel.setexam.(JOptionPane.showConfirmDialog(null, "Você precisa do seguinte exame: "));
+    }
+
+}

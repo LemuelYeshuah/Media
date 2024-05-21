@@ -1,0 +1,13 @@
+package br.tec.lemuel.model;
+
+public class PeopleModel {
+
+	private String fullName;
+	private int age;
+	private String cpf;
+	private String city;
+	private String adress;
+	private double salario;
+
+
+}

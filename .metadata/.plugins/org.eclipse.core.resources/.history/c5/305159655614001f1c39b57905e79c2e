@@ -1,0 +1,102 @@
+package br.tec.lemuel.model;
+
+public class PatientModel {
+	
+	private String firstName;
+	private int age;
+	private String cpf;
+	private String city;
+	private String adress;
+	private String exam;
+	private String finalResult;
+	
+	public PatientModel() {
+		super();	
+	}
+
+	public PatientModel(String firstName, int age, String cpf, String city, String adress, String exam,
+			String finalResult) {
+		super();
+		this.firstName = firstName;
+		this.age = age;
+		this.cpf = cpf;
+		this.city = city;
+		this.adress = adress;
+		this.exam = exam;
+		this.finalResult = finalResult;
+	}
+
+	public String getFirstName() {
+		return firstName;
+	}
+
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
+
+	public int getAge() {
+		return age;
+	}
+
+	public void setAge(int age) {
+		this.age = age;
+	}
+
+	public String getCpf() {
+		return cpf;
+	}
+
+	public void setCpf(String cpf) {
+		this.cpf = cpf;
+	}
+
+	public String getCity() {
+		return city;
+	}
+
+	public void setCity(String city) {
+		this.city = city;
+	}
+
+	public String getAdress() {
+		return adress;
+	}
+
+	public void setAdress(String adress) {
+		this.adress = adress;
+	}
+
+	public String getExam() {
+		return exam;
+	}
+
+	public void setExam(String exam) {
+		this.exam = exam;
+	}
+
+	public String getFinalResult() {
+		return finalResult;
+	}
+
+	public void setFinalResult(String finalResult) {
+		this.finalResult = finalResult;
+	}
+
+	@Override
+	public String toString() {
+		return "PatientModel [firstName=" + firstName + ", age=" + age + ", cpf=" + cpf + ", city=" + city + ", adress="
+				+ adress + ", exam=" + exam + ", finalResult=" + finalResult + "]";
+	}
+	
+	
+	
+	
+	}
+	
+	
+	
+
+
+
+
+}

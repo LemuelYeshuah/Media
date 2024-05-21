@@ -1,0 +1,34 @@
+package br.tec.lemuel.principal;
+
+import java.util.Scanner;
+
+public class MediaAluno {
+
+	public static void main(String[] args) {
+	
+		
+		int n1, n2, n3, n4;
+		float media;
+		String resultado;
+		
+		Scanner read = new Scanner(System.in);
+		MediaAluno mediaAluno = new MediaAluno();
+		
+		System.out.println("Digite a nota do seu 1º Bimestre: ");
+		n1 = read.nextInt();
+		System.out.println("Digite a nota do seu 2º Bimestre: ");
+		n2 = read.nextInt();
+		System.out.println("Digite a nota do seu 3º Bimestre: ");
+		n3 =read.nextInt();
+		System.out.println("Digite a nota do seu 4º Bimestre: ");
+		n4 = read.nextInt();
+		
+	String resultado _
+	
+			
+		}
+		
+		
+	}
+	
+

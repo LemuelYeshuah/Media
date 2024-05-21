@@ -1,0 +1,5 @@
+package br.tec.lemuel.model;
+
+public class PatientModel {
+
+	

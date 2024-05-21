@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class MediaController {
+
+	public static void main(String[] args) {
+
+	}
+
+	public String mediaAluno(double n1, double n2, double n3, double n4) {
+		
+		double media = (n1+n2+n3+n4)/4;
+	}
+}

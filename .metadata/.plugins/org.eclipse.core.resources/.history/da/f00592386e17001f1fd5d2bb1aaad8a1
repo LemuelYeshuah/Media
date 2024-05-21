@@ -1,0 +1,29 @@
+package br.tec.lemuel.principal;
+
+import java.util.Scanner 
+
+	public static void main(String[] args) {
+		
+		//Bloco - Declaração de Variáveis
+		int nota1, nota2, nota3,nota4;
+		double media;
+		
+		 Scanner read = new Scanner (System.in);
+		 
+		 // Bloco - Entrada de Dados
+		 
+		 System.out.println("Digite a nota do 1º bimestre: ");
+		 nota1 = read.nextInt();
+		 System.out.println("Digite a nota do 2 bimestre: "); 
+		 nota2 = read.nextInt();
+		 System.out.println("Digite a nota do 3º bimestre: ");
+		 nota3 = read.nextInt();
+		 System.out.println("Digite a nota do 4º bimestre: ");
+		 nota4 = read.nextInt();
+
+		 //Bloco - Processamento de dados
+		
+	}
+	
+
+}

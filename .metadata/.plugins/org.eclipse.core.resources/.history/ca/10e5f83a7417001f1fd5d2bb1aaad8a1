@@ -1,0 +1,22 @@
+package br.tec.lemuel.principal;
+
+import java.util.Scanner;
+
+public class MediaAluno {
+
+	public static void main(String[] args) {
+
+
+
+
+		Scanner read = new Scanner(System.in);
+		MediaAluno mediaAluno = new MediaAluno();
+
+	
+
+	}
+
+
+}
+
+
